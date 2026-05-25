@@ -5,13 +5,12 @@ A comprehensive, AI-powered telemedicine solution designed to bridge the gap bet
 ## 🚀 Features
 
 ### For Patients
-- **AI Health Assistant**: Integrated Google Gemini AI for initial symptom analysis and medical queries.
+- **AI Health Assistant**: Included ML model to predict Lung diseases using X-ray and Google Gemini AI for initial symptom analysis and medical queries.
 - **Appointment Booking**: Easy scheduling with doctors based on availability.
 - **Secure Payments**: Integrated Razorpay for safe and quick consultation fee payments.
 - **Video Consultations**: High-quality video calls powered by Zegocloud for face-to-face remote meetings.
 - **E-Prescriptions & Reports**: Access and download prescriptions and medical reports in DOCX format.
 - **Pharmacy Section**: Browse and manage medical requirements.
-- **Voice Accessibility**: Integrated speech-to-text for hand-free interactions.
 
 ### For Doctors
 - **Patient Management**: View and manage appointments, medical history, and reports.
@@ -32,7 +31,6 @@ A comprehensive, AI-powered telemedicine solution designed to bridge the gap bet
 - **Styling:** Tailwind CSS & Bootstrap
 - **Real-time Communication:** Zegocloud UI Kit
 - **Maps:** Leaflet & React-Leaflet
-- **Animations:** Framer Motion
 - **AI Interactions:** Google Generative AI (@google/generative-ai)
 
 **Backend:**
@@ -50,7 +48,6 @@ A comprehensive, AI-powered telemedicine solution designed to bridge the gap bet
 Before you begin, ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v16 or higher)
 - [MongoDB](https://www.mongodb.com/try/download/community) (Local or Atlas)
-- [Git](https://git-scm.com/)
 
 ---
 
@@ -137,6 +134,3 @@ The application will be available at `http://localhost:3000`.
 
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-This project is licensed under the ISC License.
