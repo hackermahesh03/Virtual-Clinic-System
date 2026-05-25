@@ -1,0 +1,52 @@
+{
+  "overall_accuracy": 91.75,
+  "total_images": 400,
+  "per_class": {
+    "COVID-19": {
+      "correct": 92,
+      "total": 100,
+      "accuracy": 92.0
+    },
+    "Lung Opacity": {
+      "correct": 93,
+      "total": 100,
+      "accuracy": 93.0
+    },
+    "Normal": {
+      "correct": 92,
+      "total": 100,
+      "accuracy": 92.0
+    },
+    "Viral Pneumonia": {
+      "correct": 90,
+      "total": 100,
+      "accuracy": 90.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      92,
+      5,
+      3,
+      0
+    ],
+    [
+      1,
+      93,
+      6,
+      0
+    ],
+    [
+      5,
+      2,
+      92,
+      1
+    ],
+    [
+      1,
+      0,
+      9,
+      90
+    ]
+  ]
+}

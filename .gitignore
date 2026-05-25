@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+
+# Local environment variables / Secrets
+.env
+
+# Large media files
+doctor demo.mp4
+
+# Temp directories and test files
+test_zip/
+uploads/
+*.log
+
+# OS/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ML Datasets & Models
+backend/ml/_extracted_dataset/
+backend/ml/dataset/
+backend/ml/__pycache__/
+backend/ml/lung_model.h5
